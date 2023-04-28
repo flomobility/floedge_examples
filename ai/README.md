@@ -9,7 +9,7 @@
 
 | S.no | model | gpu  | cpu  |
 | ---- | ----- | ---- | ---- |
-|  1.  |[Yolo-V5](./yolo_v5/)|TODO|TODO|
+|  1.  |[Yolo-V5](./yolo_v5/)|22|6|
 | 2. |[Midas](./midas/)|TODO|TODO|
 | 3. |[Selfie segmentation](./selfie_segmentation/)|TODO|TODO|
 
