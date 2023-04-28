@@ -1,0 +1,7 @@
+*.swp
+/.vscode/
+__pycache__
+*.mypy_cache
+*.sconsign.dblite
+dist
+.DS_store
