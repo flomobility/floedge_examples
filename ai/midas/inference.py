@@ -105,38 +105,5 @@ def run(video_src, dev, video_path, model, label_map, width, height) -> None:
   cv2.destroyAllWindows()
   tflite_interface.unload_model()
 
-def main():
-  parser = argparse.ArgumentParser(
-      formatter_class=argparse.ArgumentDefaultsHelpFormatter)
-  parser.add_argument(
-      '--model',
-      help='Name of image segmentation model.',
-      required=False,
-      default='midas.tflite')
-  parser.add_argument(
-      '--labelMap',
-      help='Label map text file.',
-      required=False,
-      default='labelmap.txt')
-  parser.add_argument(
-      '--cameraId', help='Id of camera.', required=False, default=0)
-  parser.add_argument(
-      '--videoFile' , help='Path to video file. ', required=False, default=None)
-  parser.add_argument(
-      '--frameWidth',
-      help='Width of frame to capture from camera.',
-      required=False,
-      default=640)
-  parser.add_argument(
-      '--frameHeight',
-      help='Height of frame to capture from camera.',
-      required=False,
-      default=480)
-  args = parser.parse_args()
-
-  run(args.model, args.labelMap, int(args.cameraId), args.videoFile, int(args.frameWidth),
-      int(args.frameHeight))
-
-
 if __name__ == '__main__':
   run()
