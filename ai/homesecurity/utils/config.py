@@ -1,7 +1,7 @@
-h264_folder='/root/floedge_examples_dup/ai/homesecurity/logs/h264_videos/'
-log_dir='/root/floedge_examples_dup/ai/homesecurity/logs/'
+h264_folder='/homesecurity/logs/h264_videos/'
+log_dir='/homesecurity/logs/'
 log_file='files_not_sent.txt'
-countfile='/root/floedge_examples_dup/ai/homesecurity/utils/countfile.txt'
+countfile='/homesecurity/utils/countfile.txt'
 logwrite_th=15 #seconds
 connect_th=15
 motion_threshold=25

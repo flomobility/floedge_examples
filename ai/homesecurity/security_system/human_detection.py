@@ -9,7 +9,7 @@ import cv2
 import time
 from anx_interface import TfliteInterface, DeviceType, Anx
 
-model_path = '/root/floedge_examples_dup/ai/homesecurity/human_detection/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29/detect.tflite'
+model_path = '/homesecurity/human_detection/coco_ssd_mobilenet_v1_1.0_quant_2018_06_29/detect.tflite'
 threshold = 0.5
 
 anx = Anx()
@@ -122,7 +122,7 @@ def determine_if_person_in(fname,threshold=0.5,is_nano=True):
 
 
 if __name__ == "__main__":
-    flag, message = determine_if_person_in("/root/floedge_examples_dup/ai/homesecurity/raspi3/h264_videos/video3.mp4")
+    flag, message = determine_if_person_in("/homesecurity/raspi3/h264_videos/video0.mp4")
     print(message)
     #cap = cv2.VideoCapture('video.mp4')
     #count=0

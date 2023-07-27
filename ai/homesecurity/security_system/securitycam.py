@@ -5,7 +5,7 @@ import queue
 import numpy as np
 import sys
 from anx_interface import TfliteInterface, DeviceType, Anx
-sys.path.insert(0, '/root/floedge_examples_dup/ai/homesecurity/utils')
+sys.path.insert(0, '/homesecurity/utils')
 from config import *
 from file_manager import FileManagerThread, FileCleanerThread, counter
 
