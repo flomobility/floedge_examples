@@ -7,7 +7,7 @@ import sys
 from anx_interface import TfliteInterface, DeviceType, Anx
 sys.path.insert(0, '/homesecurity/utils')
 from config import *
-from file_manager import FileManagerThread, FileCleanerThread, counter
+from file_manager import FileManagerThread, counter
 
 file_q = queue.Queue()
 
