@@ -29,5 +29,4 @@ python-xlib==0.33
 pyzmq==22.3.0
 six==1.16.0
 sounddevice==0.4.6
-tflite-support==0.4.4
 zipp==3.16.2
