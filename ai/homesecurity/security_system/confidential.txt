@@ -1,0 +1,1 @@
+{"recepients": ["sampleemail@abc.com"], "myemail": "youremail@abc.com", "mypass": "yourpassword"}
