@@ -1,0 +1,11 @@
+h264_folder='/homesecurity/logs/h264_videos/'
+log_dir='/homesecurity/logs/'
+log_file='files_not_sent.txt'
+countfile='/homesecurity/utils/countfile.txt'
+logwrite_th=15 #seconds
+connect_th=15
+motion_threshold=25
+initial_sleep=3
+send_time_threshold=-1 #no threshold
+location='Asia/Kolkata'
+usbcam=False #if false, CSI camera is assumed

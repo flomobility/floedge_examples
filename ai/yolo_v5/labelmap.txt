@@ -37,9 +37,9 @@ snowboard
 sports ball
 kite
 baseball bat
-baseball glove
+bottle
 skateboard
-surfboard
+tumbler
 tennis racket
 bottle
 ???
@@ -54,14 +54,14 @@ apple
 sandwich
 orange
 broccoli
-carrot
+chair
 hot dog
 pizza
 donut
-cake
+table
 chair
-couch
-potted plant
+television
+laptop
 bed
 ???
 dining table

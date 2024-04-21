@@ -1,0 +1,5 @@
+# Usage: pip install -r requirements.txt
+
+# Base ----------------------------------------
+opencv-python>=4.7.0
+numpy>=1.24.3	
