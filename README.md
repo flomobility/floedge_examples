@@ -1,6 +1,6 @@
 # Flo Edge examples
 
-This repo contains [Flo Edge](https://wiki.flomobility.com/) examples
+This repo contains Flo Edge examples
 
 ## Usage
 > All examples are witten in python
@@ -22,12 +22,6 @@ For all the models to download automatically when this repo is clones, git lfs n
 ```
 sudo apt-get install git-lfs
 git-lfs install
-```
-
-### Clone this repo
-```
-git clone https://github.com/flomobility/floedge_examples.git
-cd floedge_examples/
 ```
 
 ### Install dependencies
